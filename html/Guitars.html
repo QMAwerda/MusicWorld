@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Guitars.css" type="text/css">
+    <link rel="stylesheet" href="../css/Common.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <div class="Menu">
+        <div class="Logo">
+          <h3>LogoHere</h3>
+        </div>
+
+        <div class="Navigation">
+          <div class="menu-burger">
+            <input id="tap" type="checkbox" />
+            <label class="menu-buttn" for="tap">
+              <span></span>
+            </label>
+          </div>
+          <div class="nav" id="navig">
+            <a class=menu_elem href="../MainPage.html">Главная</a>
+            <a class=menu_elem href="../html/Guitars.html">Электрогитары</a>
+            <a class=menu_elem href="../html/Theory.html">Памятка</a>
+            <a class=menu_elem href="../html/ShoppingBasket.html">
+              Корзина
+              <div class="cart__num" id="cart_num">0</div>
+            </a>
+            <a class=menu_elem href="../html/AboutUs.html">О нас</a>
+          </div>
+        </div>
+      </div>
+      <div class="TheSearchBar">
+        <form>
+          <input type="text" placeholder="Искать здесь...">
+          <button class="searchbar" type="submit"></button>
+        </form>
+      </div>
+      <div class="GuitarsAndFilters">
+        <div class="Guitars">
+
+          <div class="guitar">
+            <div data-id="1" class="photo">
+              <img src="../PhotoGuitars/Stratocaster.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Suhr Classic Pro</p>
+              <p class="price-guitar">340900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="2" class="photo">
+              <img src="../PhotoGuitars/LesPaul.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Epiphone Les Paul</p>
+              <p class="price-guitar">207900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="3" class="photo">
+              <img src="../PhotoGuitars/Telecaster.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Fender Telecaster</p>
+              <p class="price-guitar">97400</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="4" class="photo">
+              <img src="../PhotoGuitars/Explorer.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Gibson Antique</p>
+              <p class="price-guitar">59900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="5" class="photo">
+              <img src="../PhotoGuitars/FlyingV.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">GEWA Economy</p>
+              <p class="price-guitar">80900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="6" class="photo">
+              <img src="../PhotoGuitars/Jazzmaster.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Jazzmaster L2</p>
+              <p class="price-guitar">133900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="7" class="photo">
+              <img src="../PhotoGuitars/Mockingbird.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Mockingbird R91</p>
+              <p class="price-guitar">89900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="8" class="photo">
+              <img src="../PhotoGuitars/Polyacustica.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Gretch BR</p>
+              <p class="price-guitar">141900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="9" class="photo">
+              <img src="../PhotoGuitars/SG.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Gibson SG</p>
+              <p class="price-guitar">210900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="10" class="photo">
+              <img src="../PhotoGuitars/Superstrat1.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Stagg Red</p>
+              <p class="price-guitar">129000</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="11" class="photo">
+              <img src="../PhotoGuitars/Superstrat2.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">Ibanez RG</p>
+              <p class="price-guitar">282900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <div data-id="12" class="photo">
+              <img src="../PhotoGuitars/Warlock.png" alt="" class="png">
+            </div>
+            <div class="text-about-guitar">
+              <p class="model-name">BCRich Warlock</p>
+              <p class="price-guitar">287900</p>
+            </div>
+            <div class="buy">
+              <button data-buy class="addtobasket">В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="Filters">
+          <div class="wrapper">
+            <h2>Ценовой диапазон</h2>
+            <div class="price-input">
+              <div class="field">
+                <span>Min</span>
+                <input type="number" class="input-min" value="5000">
+                <div class="separator">-</div>
+                <span>Max</span>
+                <input type="number" class="input-max" value="100000">
+              </div>
+            </div>
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+            <div class="range-input">
+              <input type="range" class="range-min" min="5000" max="100000" value="5000" step="5000">
+              <input type="range" class="range-max" min="5000" max="100000" value="100000" step="5000">
+            </div>
+          </div>
+          <script src="../js/slider.js"></script>
+          <div class="ChooseStrings">
+            <form class="Choose">
+              <h2>Количество струн</h2>
+              <fieldset>
+                <input type="radio" name="option" id="6strings" onclick="disableOtherOptions">
+                <label for="6strings">6</label>
+
+                <input type="radio" name="option" id="7strings" onclick="disableOtherOptions">
+                <label for="7strings">7</label>
+
+                <input type="radio" name="option" id="8strings" onclick="disableOtherOptions">
+                <label for="8strings">8</label>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="../js/basket.js"></script>
+      <script src="../js/menuBurger.js"></script>
+    </main>
+    <footer>
+      <div class="quick_links">
+        <h2>Quick Links</h2>
+        <p>Privacy Policy</p>
+        <p>Help</p>
+        <p>Term & Conditions</p>
+      </div>
+      <div class="contact_us">
+        <h2>Свяжитесь с нами</h2>
+        <p>ул.Тверская дом 5</p>
+        <p>8-916-931-64-12</p>
+        <p>example@mail.ru</p>
+      </div>
+    </footer>
+  </body>
+</html>

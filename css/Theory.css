@@ -1,0 +1,142 @@
+/* Ноутбуки и компьютеры */
+@media screen and (width > 1170px) {
+  .Header > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Information > p{
+    font-size: 22px;
+    width: 800px;
+  }
+  .Information > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+  }
+  .Information > .Tabs{
+    width: 1000px;
+    height: 600px;
+  }
+  .Information > .Intervals{
+    width: 600px;
+    height: 500px;
+  }
+  .Information > .Chords{
+    width: 1000px;
+    height: 800px;
+  }
+}
+
+/* Планшеты, ноутбуки */
+@media screen and (width >= 760px) and (width <= 1170px) {
+  .Header > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Information > p{
+    font-size: 22px;
+    width: 80%;
+  }
+  .Information > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+  }
+  .Information > .Tabs{
+    width: 700px;
+    height: 600px;
+  }
+  .Information > .Intervals{
+    width: 700px;
+    height: 500px;
+  }
+  .Information > .Chords{
+    width: 700px;
+    height: 800px;
+  }
+
+}
+/* Телефоны боком */
+@media screen and (width >= 480px) and (width < 760px) {
+  .Header > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Information > p{
+    font-size: 22px;
+    width: 80%;
+  }
+  .Information > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+  }
+  .Information > .Tabs{
+    width: 480px;
+    height: 600px;
+  }
+  .Information > .Intervals{
+    width: 480px;
+    height: 500px;
+  }
+  .Information > .Chords{
+    width: 480px;
+    height: 800px;
+  }
+}
+/* Телефоны вертикально */
+@media screen and (width >= 320px) and (width < 480px) {
+  .Header > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Information > p{
+    font-size: 22px;
+    width: 80%;
+  }
+  .Information > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+  }
+  .Information > .Tabs{
+    width: 320px;
+    height: 400px;
+  }
+  .Information > .Intervals{
+    width: 320px;
+    height: 300px;
+  }
+  .Information > .Chords{
+    width: 320px;
+    height: 450px;
+  }
+}

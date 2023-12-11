@@ -1,0 +1,47 @@
+
+.Video{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  margin-top: 40px;
+  font-family: 'DM Serif Display', serif;
+}
+
+p{
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: 'DM Serif Display', serif;
+}
+
+/* Ноутбуки и компьютеры */
+@media screen and (width > 1170px) {
+  .Video iframe{
+    width: 70%;
+    height: 520px;
+  }
+}
+
+/* Планшеты, ноутбуки */
+@media screen and (width >= 760px) and (width <= 1170px) {
+  .Video iframe{
+    width: 80%;
+    height: 500px;
+  }
+}
+/* Телефоны боком */
+@media screen and (width >= 480px) and (width < 760px) {
+  .Video iframe{
+    width: 85%;
+    height: 500px;
+  }
+}
+/* Телефоны вертикально */
+@media screen and (width >= 320px) and (width < 480px) {
+  .Video iframe{
+    width: 100%;
+    height: 300px;
+  }
+}
