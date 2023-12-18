@@ -53,7 +53,7 @@ for (let i = 0; i < id.length; i++) {
     </div>
   </div>`;
       wrapperGuitar.insertAdjacentHTML(`beforeend`, cartItemHTML);
-      ++amountGuitarToOrder;
+      amountGuitarToOrder += item.count;
   }
 }
 
@@ -73,7 +73,7 @@ function delCartItem(e) {
   const temp = item.getAttribute("data-id");
   allPrice -= item.querySelector(".price-element").textContent.match(/\d+/);
   priceText.innerText = allPrice;
-  amountGuitarToOrder--;
+  amountGuitarToOrder -= item.querySelector(".count-element").textContent.match(/\d+/);
   if(amountGuitarToOrder == 0){
     ifBasketIsEmpty.style.opacity = "1";
     orderButtons.style.opacity = "0";
